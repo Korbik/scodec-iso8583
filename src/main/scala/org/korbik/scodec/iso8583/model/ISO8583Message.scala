@@ -130,6 +130,7 @@ case class GenericISO8583Message[
     F126,
     F127,
     F128](
+    bitmapsFields: BitmapsFields,
     mti: String,
     field02: Option[F02] = None,
     field03: Option[F03] = None,
